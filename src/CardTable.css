@@ -1,0 +1,41 @@
+.CardTable {
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 0 10px #ddd;
+	display: inline-block;
+	height: 400px;
+	margin-left: 30px;
+	margin-top: 30px;
+	overflow: hidden;
+	text-align: center;
+	width: 350px;
+}
+
+.colorado,
+.florida {
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 25px 0;
+}
+
+.colorado {
+	background-color: #2196F3;
+}
+
+.florida {
+	background-color: #FF9800;
+}
+
+.container {
+	padding: 15px;
+}
+
+.labels {
+	font-size: 22px;
+}
+
+.details {
+	font-size: 18px;
+}
