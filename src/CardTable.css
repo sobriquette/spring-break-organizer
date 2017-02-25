@@ -11,6 +11,10 @@
 	width: 350px;
 }
 
+.container {
+	max-width: 350px;
+}
+
 .colorado,
 .florida {
 	color: #fff;

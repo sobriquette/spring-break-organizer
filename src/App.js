@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import './App.css';
 import PageTitle from './PageTitle';
 import IntroCard from './IntroCard';

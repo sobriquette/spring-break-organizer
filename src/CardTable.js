@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import styles from './CardTable.css';
+import './CardTable.css';
 
 class CardTable extends Component {
 	render() {
 		return (
 			<div className="CardTable">
 				<h3 className={this.props.headingColor}>{this.props.heading}</h3>
-				<Grid className="container">
+				<Grid>
 					<Row>
 						<Col xs={6}><h4 className="labels">{this.props.labelOne}</h4></Col>
 						<Col xs={6}><h4 className="labels">{this.props.labelTwo}</h4></Col>
